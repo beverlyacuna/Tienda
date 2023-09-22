@@ -1,0 +1,58 @@
+
+/* 
+    Created on : 21 sept 2023, 21:58:23
+    Author     : marlo
+*/
+
+#encabezado {
+    color:blueviolet;
+    font-weight: bold;
+}
+
+#tituloPrincipal{
+    color:cadetblue;
+}
+.parrafosCentrados{
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+    
+}
+.textoVerde{
+    color:greenyellow;
+}
+
+*{
+    color: whitesmoke;
+    
+}
+p,h1,span {
+    color: crimson;
+}
+a:link {
+    background-color: green;
+    color:white;
+}
+a:visited {
+    background-color: violet;
+    color:white;
+}
+a:hover {
+    background-color: darkblue;
+    color:white;
+    
+    
+}
+
+a:active {
+    background-color: red;
+    color: white;
+    
+}
+p:nth-child(odd){
+    background-color: darksalmon; 
+}
+
+p:nth-child(even){
+    background-color: deeppink;
+}
