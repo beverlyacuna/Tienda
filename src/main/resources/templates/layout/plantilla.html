@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html xmlns="http:www.w3.org/1999/xhtnl"
+<html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
     <head th:fragment="head">
         <title>TODO supply a title</title>
@@ -10,6 +10,7 @@
         <script th:src="@{/webjars/jquery/jquery.min.js}"></script>
         <script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
         <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+        <script th:src="@{/js/rutinas.js}"> </script>
     </head>
     <body>
         <header th:fragment="header" class="header">
@@ -47,16 +48,15 @@
                 </div>
             </section>
         </header>
-        
         <footer th:fragment="footer" class="bg-info text-white mt-5 p-2">
             <div class="container">
                 <div class="col">
                     <p class="lead text-center">
-                        &COPY; [[#{plantilla.derechos}]]
+                        &COPY [[#{plantilla.derechos}]]
                     </p>
                 </div>
             </div>
         </footer>
-
     </body>
 </html>
+
