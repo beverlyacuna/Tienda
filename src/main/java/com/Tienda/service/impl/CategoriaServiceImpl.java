@@ -32,6 +32,7 @@ public class CategoriaServiceImpl implements CategoriaService {
 
     }
 
+
     @Override
     @Transactional
     public void save(Categoria categoria) {
@@ -45,4 +46,3 @@ public class CategoriaServiceImpl implements CategoriaService {
     }
 
 }
-//cierre de codigo

@@ -1,4 +1,3 @@
-
 package com.Tienda.service;
 
 import com.Tienda.domain.Categoria;
@@ -7,6 +6,7 @@ import java.util.List;
 
 public interface CategoriaService {
     
+
     //Retorna una lista de categorias (activas o todas)
     public List<Categoria> getCategorias(boolean activos);
     
@@ -19,4 +19,5 @@ public interface CategoriaService {
     
     // Se elimina el categoria que tiene el id pasado por parámetro
     public void delete(Categoria categoria);
+
 }
