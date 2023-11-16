@@ -7,7 +7,9 @@
     <body>
         <header th:replace="layout/plantilla :: header"></header>
         
-        <section th:replace="producto/fragmentosProducto :: editarProducto"/>
+        <section th:replace="producto/fragmentos :: botonesAgregar"/>
+        <section th:replace="producto/fragmentos :: agregarProducto"/>
+        <section th:replace="producto/fragmentos :: listadoProducto"/>
         
         <footer th:replace="layout/plantilla :: footer"/>
     </body>
