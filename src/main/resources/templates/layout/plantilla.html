@@ -62,10 +62,10 @@
                                 <img th:src="${#ctx.session.usuarioImagen}" height="40" />
                             </li>
                             <li class="nav-item text-white my-auto">
-                                <li class="fa fa-user mx-1"></li><span sec:authentication="name">Username</span>                            
+                                <i class="fa fa-user mx-1"></i><span sec:authentication="name">Username</span>                            
                             </li>
                             <li class="nav-item text-white my-auto">
-                                <li class="fa fa-user mx-1"></li><span sec:authentication="principal.authorities">Roles</span>                            
+                                <i class="fa fa-user mx-1"></i><span sec:authentication="principal.authorities">Roles</span>                            
                             </li>
                             <li class="nav-item text-white my-auto">
                                 <form method="POST" th:action="@{/logout}">
